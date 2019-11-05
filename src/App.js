@@ -12,12 +12,12 @@ import Home from './components/Home'
 function App() {
   return (
     <div className="App">
-      <div>
-         <NavLink to='/gallery'>Gallery</NavLink>
-         <NavLink to='/brand'>Brand Builders</NavLink>
-         <NavLink to='/ourstory'>Our Story</NavLink>
-         <NavLink to='/leadership'>Leadership</NavLink>
-         <NavLink to='/contact'>Contact Us</NavLink>
+      <div className='navbar'>
+         <NavLink className='link' activeClassName='' to='/gallery'>Gallery</NavLink>
+         <NavLink className='link' activeClassName='' to='/brand'>Brand Builders</NavLink>
+         <NavLink className='link' activeClassName='' to='/ourstory'>Our Story</NavLink>
+         <NavLink className='link' activeClassName='' to='/leadership'>Leadership</NavLink>
+         <NavLink className='link' activeClassName='' to='/contact'>Contact Us</NavLink>
       </div>      
 
 
