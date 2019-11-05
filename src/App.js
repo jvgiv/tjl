@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Route, NavLink } from 'react-router-dom'
 import BrandBuilder from './components/BrandBuilders'
@@ -8,16 +7,18 @@ import Gallery from './components/Gallery'
 import Leadership from './components/Leadership'
 import OurStory from './components/OurStory'
 import Home from './components/Home'
+import tjlogo from './images/tjlogo.png'
 
 function App() {
   return (
     <div className="App">
       <div className='navbar'>
-         <NavLink className='link' activeClassName='' to='/gallery'>Gallery</NavLink>
-         <NavLink className='link' activeClassName='' to='/brand'>Brand Builders</NavLink>
-         <NavLink className='link' activeClassName='' to='/ourstory'>Our Story</NavLink>
-         <NavLink className='link' activeClassName='' to='/leadership'>Leadership</NavLink>
-         <NavLink className='link' activeClassName='' to='/contact'>Contact Us</NavLink>
+        <img className='navbar-pic' src={tjlogo} alt='logo' />
+        <NavLink className='link' activeClassName='' to='/gallery'>Gallery</NavLink>
+        <NavLink className='link' activeClassName='' to='/brand'>Brand Builders</NavLink>
+        <NavLink className='link' activeClassName='' to='/ourstory'>Our Story</NavLink>
+        <NavLink className='link' activeClassName='' to='/leadership'>Leadership</NavLink>
+        <NavLink className='link' activeClassName='' to='/contact'>Contact Us</NavLink>
       </div>      
 
 

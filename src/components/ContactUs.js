@@ -22,21 +22,32 @@ export default class ContactUs extends Component {
     }
     
     render() {
-        console.log(this.state.name)
+        
         return (
-            <div>
-                <div>
-
+            <div className='form-container'>
+                <div className='contact'>
+                    <div>
+                        <h3>Tracy Welch</h3>
+                        <p>tracy@tjluxurygroup.com</p>
+                        <p>917-913-5073</p>
+                    </div>
+                    <div>
+                        <h3>James Fletcher</h3>
+                        <p>james@tjluxurygroup.com</p>
+                        <p>917-596-0701</p>
+                    </div>
                 </div>
-                <form>
+                <form className='form'>
                     <input
+                        className='form-input'
                         type='text'
                         name='name'
                         placeholder='Name'
                         value={this.state.name}
                         onChange={this.handleChange}
                     />
-                    <input 
+                    <input
+                        className='form-input' 
                         type='text'
                         name='email'
                         placeholder='Email'
@@ -44,6 +55,7 @@ export default class ContactUs extends Component {
                         onChange={this.handleChange}
                     />
                     <input 
+                        className='form-input'
                         type='text'
                         name='subject'
                         placeholder='Subject'
@@ -51,6 +63,7 @@ export default class ContactUs extends Component {
                         onChange={this.handleChange}
                     />
                     <input 
+                        className='form-input-message'
                         type='text'
                         name='message'
                         placeholder='Type your message here:'
