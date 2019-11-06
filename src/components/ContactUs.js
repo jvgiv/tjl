@@ -24,6 +24,9 @@ export default class ContactUs extends Component {
     render() {
         
         return (
+            <div>
+
+                <h2>Contact Us</h2>
             <div className='form-container'>
                 <div className='contact'>
                     <div>
@@ -45,7 +48,7 @@ export default class ContactUs extends Component {
                         placeholder='Name'
                         value={this.state.name}
                         onChange={this.handleChange}
-                    />
+                        />
                     <input
                         className='form-input' 
                         type='text'
@@ -53,7 +56,7 @@ export default class ContactUs extends Component {
                         placeholder='Email'
                         value={this.state.email}
                         onChange={this.handleChange}
-                    />
+                        />
                     <input 
                         className='form-input'
                         type='text'
@@ -61,7 +64,7 @@ export default class ContactUs extends Component {
                         placeholder='Subject'
                         value={this.state.subject}
                         onChange={this.handleChange}
-                    />
+                        />
                     <input 
                         className='form-input-message'
                         type='text'
@@ -69,8 +72,9 @@ export default class ContactUs extends Component {
                         placeholder='Type your message here:'
                         value={this.state.message}
                         onChange={this.handleChange}
-                    />
+                        />
                 </form>
+                        </div>
             </div>
         )
     }
