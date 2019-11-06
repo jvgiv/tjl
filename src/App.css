@@ -79,3 +79,35 @@
   margin: 1%;
   height: 25%;
 }
+
+
+/* Leadership */
+
+.lea-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Brand Builders */
+
+.bb-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bb-container-children {
+  width: 29%;
+  margin: 2% 2% 2% 2%;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.bb-container-children-last {
+  width: 25%;
+  padding: 2% 2% 2% 2%;
+  height: 300px;
+  margin: 2% auto;
+  border: 1px solid red;
+}
