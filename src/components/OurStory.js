@@ -10,7 +10,7 @@ export default class OurStory extends Component {
       <>
         <Parallax bgImage={image} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Smart. Strategic. Step Ahead.</h2>
+            <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2>
           </div>
         </Parallax>
         <div className='our-story-container'>
