@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { Parallax } from 'react-parallax';
+
+const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6p7y7.png';
 
 export default class ContactUs extends Component {
     constructor(props) {
@@ -24,9 +27,15 @@ export default class ContactUs extends Component {
     render() {
         
         return (
+            <>
+            <Parallax bgImage={image} strength={500}>
+                <div className='parallax-bg'>
+                    <h2 className='parallax-h1'>Reach Out Today.</h2>
+                </div>
+            </Parallax>
             <div>
 
-                <h2>Contact Us</h2>
+                <h3 className='brand-h3'>Contact Us</h3>
             <div className='form-container'>
                 <div className='contact'>
                     <div>
@@ -76,6 +85,7 @@ export default class ContactUs extends Component {
                 </form>
                         </div>
             </div>
+            </>
         )
     }
 }

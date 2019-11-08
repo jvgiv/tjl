@@ -145,6 +145,14 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  
+}
+
+.lea-story {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Brand Builders */

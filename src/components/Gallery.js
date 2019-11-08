@@ -11,10 +11,11 @@ export default class Gallery extends Component {
         <div className='parallax-bg'>
             <h2 className='parallax-h1'>Smart. Strategic. Step Ahead.</h2>
           </div>
+
         </Parallax>
       <div className='container'>
-        <h3 className='brand-h3'>Brand Builders</h3>
-        <h1>Hello Ready to make some money!</h1>
+        <h3 className='brand-h3'>Gallery</h3>
+        {/* <h1>Hello Ready to make some money!</h1> */}
       </div>
       </>
     );
