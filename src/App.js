@@ -9,11 +9,14 @@ import OurStory from './components/OurStory';
 import Home from './components/Home';
 import tjlogo from './images/tjlogo.png';
 
+import WhiteLogo from './images/black-white.png';
+import BlackLogo from './images/black-logo.png'
+
 function App() {
   return (
     <div className='App'>
       <div className='navbar'>
-        <img className='navbar-pic' src={tjlogo} alt='logo' />
+        <img className='navbar-pic' src={BlackLogo} alt='logo' />
         <div className='navbar-links'>
           <NavLink className='link' activeClassName='' to='/gallery'>
             Gallery
