@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import tracy from '../images/tracy.jpeg'
 import jim from '../images/jim.jpg'
+import Footer from './Footer'
 
 export default class Leadership extends Component {
     render() {
@@ -46,6 +47,7 @@ export default class Leadership extends Component {
                 <img src={jim} alt='jim' />
               </div>
             </div>
+            <Footer/>
           </div>
         );
     }

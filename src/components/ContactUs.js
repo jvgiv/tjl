@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
+import Footer from './Footer';
 
 const image = 'https://w.wallhaven.cc/full/mp/wallhaven-mp685m.jpg';
 
@@ -47,8 +48,8 @@ export default class ContactUs extends Component {
           </div>
           <form className='form'>
             <p>
-              Lorem ipsum dolor sit amet, email to <strong>contact@email.com</strong> or fill out
-              the form below.
+              Lorem ipsum dolor sit amet, email to
+              <strong>contact@email.com</strong> or fill out the form below.
             </p>
             <div className='label-name'>Full Name</div>
             <input
@@ -84,8 +85,11 @@ export default class ContactUs extends Component {
               value={this.state.message}
               onChange={this.handleChange}
             />
+            <button>Send</button>
           </form>
         </div>
+
+        <Footer />
       </>
     );
   }

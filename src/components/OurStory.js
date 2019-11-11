@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { Parallax } from 'react-parallax';
+import Footer from './Footer';
 
 const image = 'https://w.wallhaven.cc/full/0j/wallhaven-0jgmvw.png';
 
@@ -105,6 +106,7 @@ export default class OurStory extends Component {
             montes, nascetur ridiculus mus.
           </p>
         </div>
+        <Footer/>
       </>
     );
   }

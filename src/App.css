@@ -76,12 +76,33 @@
   flex-direction: row;
   justify-content: center;
   padding: 31px 120px;
-  align-items: center;
+  align-items: flex-start
+}
+
+.form button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #222222;
+  padding: 13px 26px;
+  border: 2px solid #222222;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  margin-top: 20px;
+  width: 13%;
+}
+
+.form button:hover {
+  background: #222222;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .contact-h3 {
   font-size: 25px;
-  margin-top: 75px;
+  margin-top: 50px;
   font-weight: 900;
   margin-bottom: 25px;
   letter-spacing: 8px;
@@ -165,7 +186,7 @@
 /* Our Story */
 
 .our-story-container {
-  margin-top: 75px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -233,7 +254,7 @@
 
 .brand-h3 {
   font-size: 25px;
-  margin-top: 75px;
+  margin-top: 50px;
   font-weight: 900;
   margin-bottom: 25px;
   letter-spacing: 8px;
@@ -274,4 +295,72 @@
 
 .shadow-lg {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  color: #ffffff;
+  background: #222222;
+  justify-content: center;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 50px 120px;
+  font-size: 17px;
+}
+
+.footer-inner h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-inner h4 {
+  font-weight: 700;
+  letter-spacing: 0.17px;
+  line-height: 34px;
+}
+
+.footer-inner p {
+  line-height: 40px;
+}
+
+.footer-inner h2 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.footer-inner button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 13px 26px;
+  border: 2px solid #ffffff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  width: 75%;
+}
+
+.footer-inner button:hover {
+  background: #ffffff;
+  color: #222222;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0.17px;
 }
