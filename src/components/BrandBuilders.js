@@ -31,9 +31,9 @@ export default class BrandBuilders extends Component {
           <p className='bb-container-children image'>Seasonal Reward Programs</p>
           <p className='bb-container-children image'>Curating for US Markets</p>
           <p className='bb-container-children image'>Trunk Show Expertise</p>
-          <p className='bb-container-children image'></p>
+          <p className='bb-container-children'></p>
           <p className='bb-container-children image'>Seasonal Forecast</p>
-          <p className='bb-container-children image'></p>
+          <p className='bb-container-children'></p>
         </div>
         <Footer/>
       </>

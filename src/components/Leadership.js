@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import tracy from '../images/tracy.jpeg'
 import jim from '../images/jim.jpg'
+
 import Footer from './Footer'
 
 export default class Leadership extends Component {
