@@ -10,7 +10,7 @@ import Home from './components/Home';
 import tjlogo from './images/tjlogo.png';
 
 import WhiteLogo from './images/black-white.png';
-import BlackLogo from './images/black-logo.png'
+import BlackLogo from './images/black-logo.png';
 
 function App() {
   return (
