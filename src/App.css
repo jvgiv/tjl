@@ -43,6 +43,9 @@
   justify-content: space-between;
   letter-spacing: 1px;
 }
+.navbar-links:hover {
+  color: gray !important;
+}
 
 .navbar-pic {
   max-width: 255px;
@@ -69,16 +72,66 @@
 /* Contact Us Form */
 
 .form-container {
-  /* width: 100%; */
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  border: 1px solid#000000;
+  justify-content: center;
+  padding: 31px 120px;
+  align-items: flex-start
+}
+
+.form button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #222222;
+  padding: 13px 26px;
+  border: 2px solid #222222;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  margin-top: 20px;
+  width: 13%;
+}
+
+.form button:hover {
+  background: #222222;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contact-h3 {
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 41px;
+  background: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding: 10px 25px;
 }
 
 .contact {
-  margin: 0 auto;
   width: 25%;
+  text-align: left;
+}
+
+.contact-person h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 50px;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+.contact-person p {
+  margin-top: 17px;
+  letter-spacing: 0.17px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .form {
@@ -86,11 +139,43 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  border: 1px solid#000000;
+}
+
+.form p {
+  text-align: left;
+}
+
+.label-name {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.label-email {
+  margin-top: 20px;
+  text-align: left;
+}
+.label-subject {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.label-message {
+  margin-top: 20px;
+  text-align: left;
 }
 
 .form-input {
-  margin: 1%;
+  width: 75%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
 .form-input-message {
@@ -101,7 +186,7 @@
 /* Our Story */
 
 .our-story-container {
-  margin-top: 75px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -111,9 +196,9 @@
   margin-bottom: 25px;
   letter-spacing: 8px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   line-height: 41px;
-  border: 4px solid #000;
+  background: rgba(0, 0, 0, 0.8);
   display: inline-block;
   padding: 10px 25px;
 }
@@ -177,14 +262,14 @@
 
 .brand-h3 {
   font-size: 25px;
-  margin-top: 75px;
+  margin-top: 50px;
   font-weight: 900;
   margin-bottom: 25px;
   letter-spacing: 8px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   line-height: 41px;
-  border: 4px solid #000;
+  background: rgba(0, 0, 0, 0.8);
   display: inline-block;
   padding: 10px 25px;
 }
@@ -205,4 +290,85 @@
 .image {
   background-image: url('https://w.wallhaven.cc/full/0p/wallhaven-0p8vvj.jpg');
   background-position: cover;
+}
+
+/* Profile Images + shadows*/
+.img-squared {
+  border: 1px solid rgba(192, 192, 192, 0.3);
+}
+
+.shadow {
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.shadow-lg {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  color: #ffffff;
+  background: #222222;
+  justify-content: center;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 50px 120px;
+  font-size: 17px;
+}
+
+.footer-inner h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-inner h4 {
+  font-weight: 700;
+  letter-spacing: 0.17px;
+  line-height: 34px;
+}
+
+.footer-inner p {
+  line-height: 40px;
+}
+
+.footer-inner h2 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.footer-inner button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 13px 26px;
+  border: 2px solid #ffffff;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  width: 75%;
+}
+
+.footer-inner button:hover {
+  background: #ffffff;
+  color: #222222;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0.17px;
 }

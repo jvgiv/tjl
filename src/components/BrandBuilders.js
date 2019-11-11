@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { Parallax } from 'react-parallax';
+import Footer from './Footer';
 
 const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6p7y7.png';
 
@@ -34,6 +35,7 @@ export default class BrandBuilders extends Component {
           <p className='bb-container-children image'>Seasonal Forecast</p>
           <p className='bb-container-children'></p>
         </div>
+        <Footer/>
       </>
     );
   }

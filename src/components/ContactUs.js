@@ -1,91 +1,97 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
+import Footer from './Footer';
 
-const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6p7y7.png';
+const image = 'https://w.wallhaven.cc/full/mp/wallhaven-mp685m.jpg';
 
 export default class ContactUs extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             name: '',
-             email: '',
-             subject: '',
-             message: ''
+  constructor(props) {
+    super(props);
 
-        }
-    }
+    this.state = {
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    };
+  }
 
-    handleChange = (e) => {
-        e.preventDefault()
-        this.setState({
-            ...this.state,
-            [e.target.name]: e.target.value
-        })
-    }
-    
-    render() {
-        
-        return (
-            <>
-            <Parallax bgImage={image} strength={500}>
-                <div className='parallax-bg'>
-                    <h2 className='parallax-h1'>Reach Out Today.</h2>
-                </div>
-            </Parallax>
-            <div>
+  handleChange = e => {
+    e.preventDefault();
+    this.setState({
+      ...this.state,
+      [e.target.name]: e.target.value
+    });
+  };
 
-                <h3 className='brand-h3'>Contact Us</h3>
-            <div className='form-container'>
-                <div className='contact'>
-                    <div>
-                        <h3>Tracy Welch</h3>
-                        <p>tracy@tjluxurygroup.com</p>
-                        <p>917-913-5073</p>
-                    </div>
-                    <div>
-                        <h3>James Fletcher</h3>
-                        <p>james@tjluxurygroup.com</p>
-                        <p>917-596-0701</p>
-                    </div>
-                </div>
-                <form className='form'>
-                    <input
-                        className='form-input'
-                        type='text'
-                        name='name'
-                        placeholder='Name'
-                        value={this.state.name}
-                        onChange={this.handleChange}
-                        />
-                    <input
-                        className='form-input' 
-                        type='text'
-                        name='email'
-                        placeholder='Email'
-                        value={this.state.email}
-                        onChange={this.handleChange}
-                        />
-                    <input 
-                        className='form-input'
-                        type='text'
-                        name='subject'
-                        placeholder='Subject'
-                        value={this.state.subject}
-                        onChange={this.handleChange}
-                        />
-                    <input 
-                        className='form-input-message'
-                        type='text'
-                        name='message'
-                        placeholder='Type your message here:'
-                        value={this.state.message}
-                        onChange={this.handleChange}
-                        />
-                </form>
-                        </div>
+  render() {
+    return (
+      <>
+        <Parallax bgImage={image} strength={500}>
+          <div className='parallax-bg'>
+            <h2 className='parallax-h1'>Communicate. Appreciate.</h2>
+          </div>
+        </Parallax>
+        <h3 className='contact-h3'>Contact Us</h3>
+        <div className='form-container'>
+          <div className='contact'>
+            <div className='contact-person'>
+              <h3>Tracy Welch</h3>
+              <p>tracy@tjluxurygroup.com</p>
+              <p>917-913-5073</p>
             </div>
-            </>
-        )
-    }
+            <div className='contact-person'>
+              <h3>James Fletcher</h3>
+              <p>james@tjluxurygroup.com</p>
+              <p>917-596-0701</p>
+            </div>
+          </div>
+          <form className='form'>
+            <p>
+              Lorem ipsum dolor sit amet, email to
+              <strong>contact@email.com</strong> or fill out the form below.
+            </p>
+            <div className='label-name'>Full Name</div>
+            <input
+              className='form-input'
+              type='text'
+              name='name'
+              value={this.state.name}
+              onChange={this.handleChange}
+            />
+            <div className='label-email'>Email</div>
+            <input
+              className='form-input'
+              type='email'
+              name='email'
+              value={this.state.email}
+              onChange={this.handleChange}
+            />
+            <div className='label-subject'>Subject</div>
+            <input
+              className='form-input'
+              type='text'
+              name='subject'
+              value={this.state.subject}
+              onChange={this.handleChange}
+            />
+            <div className='label-message'>Message</div>
+            <textarea
+              className='form-input'
+              type='text'
+              name='message'
+              rows='4'
+              cols='50'
+              value={this.state.message}
+              onChange={this.handleChange}
+            />
+            <button>Send</button>
+          </form>
+        </div>
+
+        <Footer />
+      </>
+    );
+  }
+
 }
