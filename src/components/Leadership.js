@@ -2,11 +2,21 @@ import React, { Component } from 'react'
 import tracy from '../images/tracy.jpeg'
 import jim from '../images/jim.jpg'
 
-import Footer from './Footer'
+import Footer from './Footer';
+
+import { Parallax } from 'react-parallax';
+
+const image = 'https://w.wallhaven.cc/full/0j/wallhaven-0j2x6q.jpg';
 
 export default class Leadership extends Component {
     render() {
         return (
+          <>
+            <Parallax bgImage={image} strength={500}>
+              <div className='parallax-bg'>
+                <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2>
+              </div>
+            </Parallax>
           <div className='lea-container'>
             <div>
               <div>
@@ -48,8 +58,9 @@ export default class Leadership extends Component {
                 <img src={jim} alt='jim' />
               </div>
             </div>
-            <Footer/>
+            <Footer />
           </div>
+          </>
         );
     }
 }
