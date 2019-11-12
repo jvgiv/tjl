@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
+import HomePage from './Homepage';
+import Footer from './Footer';
 
 export default class Home extends Component {
   render() {
     return (
-      <div className='container'>
-       
-      </div>
+      <>
+        <HomePage />
+        <Footer />
+      </>
     );
   }
 }
