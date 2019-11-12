@@ -106,7 +106,7 @@ export default class OurStory extends Component {
             montes, nascetur ridiculus mus.
           </p>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </>
     );
   }

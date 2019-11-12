@@ -57,7 +57,7 @@ export default class Leadership extends Component {
               <img className='img-squared shadow' src={jim} alt='jim' />
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </>
     );

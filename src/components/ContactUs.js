@@ -29,7 +29,7 @@ export default class ContactUs extends Component {
       <>
         <Parallax bgImage={image} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Communicate. Appreciate.</h2>
+            <h2 className='parallax-h1'>Communicate with us.</h2>
           </div>
         </Parallax>
         <h3 className='contact-h3'>Contact Us</h3>
@@ -48,8 +48,7 @@ export default class ContactUs extends Component {
           </div>
           <form className='form'>
             <p>
-              Lorem ipsum dolor sit amet, email to
-              <strong>contact@email.com</strong> or fill out the form below.
+              Email to <strong>tracy@tjluxurygroup.com</strong>, or fill out the form below.
             </p>
             <div className='label-name'>Full Name</div>
             <input
@@ -89,7 +88,7 @@ export default class ContactUs extends Component {
           </form>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
   }

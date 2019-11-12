@@ -11,6 +11,7 @@ import tjlogo from './images/tjlogo.png';
 
 import WhiteLogo from './images/black-white.png';
 import BlackLogo from './images/black-logo.png';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,11 +19,8 @@ function App() {
       <div className='navbar'>
         <img className='navbar-pic' src={BlackLogo} alt='logo' />
         <div className='navbar-links'>
-          <NavLink className='link' activeClassName='' to='/gallery'>
-            Gallery
-          </NavLink>
           <NavLink className='link' activeClassName='' to='/brand'>
-            Brand Builders
+            Our Strategy
           </NavLink>
           <NavLink className='link' activeClassName='' to='/ourstory'>
             Our Story
@@ -30,11 +28,15 @@ function App() {
           <NavLink className='link' activeClassName='' to='/leadership'>
             Leadership
           </NavLink>
+          <NavLink className='link' activeClassName='' to='/gallery'>
+            Gallery
+          </NavLink>
           <NavLink className='link' activeClassName='' to='/contact'>
             Contact Us
           </NavLink>
         </div>
       </div>
+
 
       <Route exact path='/' component={Home} />
       <Route path='/gallery' component={Gallery1} />
@@ -42,6 +44,7 @@ function App() {
       <Route path='/brand' component={BrandBuilder} />
       <Route path='/ourstory' component={OurStory} />
       <Route path='/leadership' component={Leadership} />
+      <Footer />
     </div>
   );
 }

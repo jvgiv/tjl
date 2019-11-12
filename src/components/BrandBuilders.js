@@ -35,7 +35,7 @@ export default class BrandBuilders extends Component {
           <p className='bb-container-children image'>Seasonal Forecast</p>
           <p className='bb-container-children'></p>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </>
     );
   }
