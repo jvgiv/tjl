@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 import coverPic from '../images/coverPic.jpg'
 import blackLogo from '../images/black-logo.png'
 
+
 const image = 'https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png';
 
 const HomePage = () => {

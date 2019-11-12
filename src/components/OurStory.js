@@ -107,6 +107,7 @@ export default class OurStory extends Component {
           </p>
         </div>
         {/* <Footer/> */}
+        
       </>
     );
   }

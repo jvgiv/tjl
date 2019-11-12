@@ -4,7 +4,8 @@ import ig from '../images/ig.svg'
 import fb from '../images/fb.svg'
 
 const Footer = () => {
-
+  
+  
   
 
   return (
