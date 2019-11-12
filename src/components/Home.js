@@ -7,8 +7,9 @@ export default class Home extends Component {
   render() {
     return (
       <>
+      
         <HomePage />
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
   }

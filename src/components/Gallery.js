@@ -47,7 +47,8 @@ const Gallery1 = () => {
             </Modal>
           ) : null}
         </ModalGateway>
-        <Footer />
+        {/* <Footer /> */}
+        
       </div>
     </>
   );
