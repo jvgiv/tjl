@@ -11,7 +11,7 @@ const HomePage = () => {
     <>
       <Parallax
         blur={{ min: -15, max: 15 }}
-        style={{ height: 1000 }}
+        style={{ height: 1000, marginBottom: 0 }}
         bgImage={coverPic}
         strength={600}
       >
@@ -19,7 +19,7 @@ const HomePage = () => {
           <h2 className='parallax-h1'></h2>
         </div>
       </Parallax>
-      <h3 className='expert-h3'>TJ Luxury Group</h3>
+      {/* <h3 className='expert-h3'>TJ Luxury Group</h3> */}
       {/* <img src={blackLogo} alt='TJ Logo' className='homepage-logo'/> */}
       {/* <div className='bb-container'>
         <p className='bb-container-children image'>
