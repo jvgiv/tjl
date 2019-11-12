@@ -1,5 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import coverPic from '../images/coverPic.jpg'
+import blackLogo from '../images/black-logo.png'
 
 const image = 'https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png';
 
@@ -8,16 +10,17 @@ const HomePage = () => {
     <>
       <Parallax
         blur={{ min: -15, max: 15 }}
-        style={{ height: 500 }}
-        bgImage={image}
+        style={{ height: 1000 }}
+        bgImage={coverPic}
         strength={600}
       >
         <div className='parallax-bg'>
-          <h2 className='parallax-h1'>Home. Life. Preview.</h2>
+          <h2 className='parallax-h1'></h2>
         </div>
       </Parallax>
-      <h3 className='expert-h3'>Our Expertise</h3>
-      <div className='bb-container'>
+      <h3 className='expert-h3'>TJ Luxury Group</h3>
+      {/* <img src={blackLogo} alt='TJ Logo' className='homepage-logo'/> */}
+      {/* <div className='bb-container'>
         <p className='bb-container-children image'>
           Strategic Aspirational Product Development
         </p>
@@ -51,7 +54,7 @@ const HomePage = () => {
         laboriosam ullam accusantium aut, reiciendis odit provident aspernatur
         placeat asperiores, id distinctio iure. Perspiciatis aspernatur
         asperiores tempora voluptas vero deserunt.
-      </p>
+      </p> */}
     </>
   );
 };
