@@ -232,10 +232,31 @@
   width: 100%;
 }
 
+.story-parallax-bg {
+  background-position: center center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-parallax-bg h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.story-parallax-bg h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
 .story-child-1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 50px;
   border-bottom: 1px solid rgba(192, 192, 192, 0.3);
@@ -245,6 +266,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 50px;
 }
@@ -284,7 +306,6 @@
 .our-story-container h3 {
   font-size: 25px;
   font-weight: 900;
-  margin-bottom: 25px;
   letter-spacing: 8px;
   text-transform: uppercase;
   color: #ffffff;
