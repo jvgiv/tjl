@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='App'>
       <div className='navbar'>
-        <img className='navbar-pic' src={BlackLogo} alt='logo' />
+        <NavLink to='/'><img className='navbar-pic' src={BlackLogo} alt='logo' /></NavLink>
         <div className='navbar-links'>
           <NavLink className='link' activeClassName='' to='/brand'>
             Our Strategy
