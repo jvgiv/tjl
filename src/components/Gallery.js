@@ -31,7 +31,8 @@ const Gallery1 = () => {
             <h2 className='parallax-h1'>Smart. Strategic. Gallery Ahead.</h2>
           </div>
         </Parallax>
-        <Gallery photos={photos} direction={'column'} onClick={openLightbox} />
+        <h3 className='gallery-h3'>Gallery</h3>
+        <Gallery style={{marginTop: 10}}photos={photos} direction={'column'} onClick={openLightbox} />
         <ModalGateway>
           {modalIsOpen ? (
             <Modal onClose={closeLightbox}>
