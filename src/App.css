@@ -265,7 +265,7 @@
 .story-child-2 {
   display: flex;
   flex-direction: row;
-  justify-contenst: center;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 50px;
@@ -507,6 +507,8 @@ footer {
 }
 
 .footer-inner h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.11px;
   font-weight: 900;
   margin-bottom: 15px;
 }
@@ -550,11 +552,9 @@ footer {
 }
 
 .footer-logos {
-  color: #ffffff;
-  padding-left: 5%;
-  height: 25%;
-  width: 25%;
+  padding-right: 5%;
   margin: 0 auto;
+  width: 35px;
 }
 
 .work-with-us {
@@ -564,4 +564,38 @@ footer {
 .homepage-logo {
   margin: 0 auto;
   width: 90%;
+}
+
+.footer-insta-button {
+  fill: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  background: transparent;
+}
+
+.footer-insta-button:hover {
+  fill: #222222;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  background: #ffffff;
+   cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-fb-button {
+  fill: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  background: transparent;
+}
+
+.footer-fb-button:hover {
+  fill: #222222;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  background: #ffffff;
+   cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }

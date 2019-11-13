@@ -4,9 +4,6 @@ import {ReactComponent as Instagram} from '../images/ig.svg'
 import {ReactComponent as Facebook} from '../images/fb.svg'
 
 const Footer = () => {
-  
-  
-  
 
   return (
     <>
@@ -37,11 +34,14 @@ const Footer = () => {
           </div>
         </div>
         <div className='footer-inner'>
+        
           <h2>Work with us.</h2>
           <Link to='/contact' className='contact-link'>Contact</Link>
           <div className='logo-container'>
-            <a className='footer-logos' href='https://www.instagram.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Instagram'><Instagram /></a>
-            <a className='footer-logos' href='https://www.facebook.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Facebook'><Facebook /></a>
+            <a className='footer-logos' href='https://www.instagram.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Instagram'><Instagram className='
+            footer-insta-button'/></a>
+            <a className='footer-logos' href='https://www.facebook.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Facebook'><Facebook className='
+            footer-fb-button'/></a>
           </div>
 
         </div>

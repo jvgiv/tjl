@@ -4,7 +4,7 @@ import { Parallax } from 'react-parallax';
 import Footer from './Footer';
 
 const image = 'https://w.wallhaven.cc/full/0j/wallhaven-0jgmvw.png';
-const image2 = 'https://w.wallhaven.cc/full/0q/wallhaven-0qmgrq.jpg';
+const image2 = 'https://w.wallhaven.cc/full/j5/wallhaven-j5lygp.jpg';
 const image3 = 'https://w.wallhaven.cc/full/j8/wallhaven-j8k1xw.jpg';
 
 export default class OurStory extends Component {
