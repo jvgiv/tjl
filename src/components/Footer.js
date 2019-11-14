@@ -1,12 +1,9 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import ig from '../images/ig.svg'
-import fb from '../images/fb.svg'
+import {ReactComponent as Instagram} from '../images/ig.svg'
+import {ReactComponent as Facebook} from '../images/fb.svg'
 
 const Footer = () => {
-  
-  
-  
 
   return (
     <>
@@ -29,20 +26,22 @@ const Footer = () => {
           </NavLink>
         </div>
         <div className='footer-inner'>
-          <p>
+          <div>
               <h4>
               New York, NY
               </h4>
-            {/* <br /> */}
-            917-913-5073
-          </p>
+            <p>917-913-5073</p>
+          </div>
         </div>
-        <div className='footer-inner work-with-us'>
+        <div className='footer-inner'>
+        
           <h2>Work with us.</h2>
           <Link to='/contact' className='contact-link'>Contact</Link>
           <div className='logo-container'>
-            <a className='footer-logos' href='https://www.instagram.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Instagram'><img src={ig} /></a>
-            <a className='footer-logos' href='https://www.facebook.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Facebook'><img src={fb} /></a>
+            <a className='footer-logos' href='https://www.instagram.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Instagram'><Instagram className='
+            footer-insta-button'/></a>
+            <a className='footer-logos' href='https://www.facebook.com/tjluxurygroup/' target='blank' alt='TJ Luxury Group Facebook'><Facebook className='
+            footer-fb-button'/></a>
           </div>
 
         </div>
