@@ -568,7 +568,7 @@ footer {
 
 .footer-insta-button {
   fill: #ffffff;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
   padding: 10px;
   background: transparent;
 }
@@ -585,14 +585,14 @@ footer {
 
 .footer-fb-button {
   fill: #ffffff;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
   padding: 10px;
   background: transparent;
 }
 
 .footer-fb-button:hover {
   fill: #222222;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
   padding: 10px;
   background: #ffffff;
    cursor: pointer;

@@ -32,7 +32,7 @@ const Gallery1 = () => {
           </div>
         </Parallax>
         <h3 className='gallery-h3'>Gallery</h3>
-        {/* <Gallery style={{marginTop: 10}}photos={photos} direction={'column'} onClick={openLightbox} />
+        <Gallery style={{marginTop: 10}}photos={photos} direction={'column'} onClick={openLightbox} />
         <ModalGateway>
           {modalIsOpen ? (
             <Modal onClose={closeLightbox}>
@@ -46,7 +46,7 @@ const Gallery1 = () => {
               />
             </Modal>
           ) : null}
-        </ModalGateway> */}
+        </ModalGateway>
         {/* <Footer /> */}
         
       </div>
