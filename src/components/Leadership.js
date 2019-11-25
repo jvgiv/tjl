@@ -20,12 +20,12 @@ export default class Leadership extends Component {
         <div className='lea-container'>
           <div className='tracy-container'>
             <div>
-              <img className='img-squared shadow' src={tracy} alt='tracy' />
+              {/* <img className='img-squared shadow' src={tracy} alt='tracy' /> */}
             </div>
             <div className='tracy-info'>
               <h2>Tracy Welch</h2>
-              <p>917-913-5073</p>
-              <p>tracy@tjluxurygroup.com</p>
+              {/* <p>917-913-5073</p> */}
+              {/* <p>tracy@tjluxurygroup.com</p> */}
               <p>
                 Starting her career at Escada USA as a sales assistant, Tracy
                 worked her way through the House of Escada to launch and develop
@@ -41,8 +41,8 @@ export default class Leadership extends Component {
           <div className='james-container'>
             <div className='james-info'>
               <h2>James Fletcher</h2>
-              <p>917-596-0701</p>
-              <p>james@tjluxurygroup.com</p>
+              {/* <p>917-596-0701</p>
+              <p>james@tjluxurygroup.com</p> */}
               <p>
                 With a strong retail background James Fletcher began his career
                 at Saks Fifth Avenue. During his 5 year tenure at the New York
@@ -55,7 +55,7 @@ export default class Leadership extends Component {
             </div>
             <div>
               
-              <img className='img-squared shadow' src={jim} alt='jim' />
+              {/* <img className='img-squared shadow' src={jim} alt='jim' /> */}
             </div>
           </div>
           {/* <Footer /> */}

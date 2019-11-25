@@ -433,10 +433,10 @@
 
 .tracy-info {
   text-align: left;
-  width: 750px;
+  width: 50%;
   color: #000000;
   line-height: 41px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .james-container {
@@ -451,10 +451,10 @@
 
 .james-info {
   text-align: left;
-  width: 750px;
+  width: 50%;
   color: #000000;
   line-height: 41px;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 /* Profile Images + shadows*/

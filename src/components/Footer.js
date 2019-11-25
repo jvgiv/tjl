@@ -30,7 +30,7 @@ const Footer = () => {
               <h4>
               New York, NY
               </h4>
-            <p>917-913-5073</p>
+            
           </div>
         </div>
         <div className='footer-inner'>
