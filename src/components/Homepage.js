@@ -9,7 +9,8 @@ const image = 'https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png';
 const HomePage = () => {
   return (
     <>
-      <Parallax
+    <img src={coverPic} alt='cover' style={{width: "100%"}}/>
+      {/* <Parallax
         blur={{ min: -15, max: 15 }}
         style={{ height: 1000, marginBottom: 0 }}
         bgImage={coverPic}
@@ -18,7 +19,7 @@ const HomePage = () => {
         <div className='parallax-bg'>
           <h2 className='parallax-h1'></h2>
         </div>
-      </Parallax>
+      </Parallax> */}
       {/* <h3 className='expert-h3'>TJ Luxury Group</h3> */}
       {/* <img src={blackLogo} alt='TJ Logo' className='homepage-logo'/> */}
       {/* <div className='bb-container'>
