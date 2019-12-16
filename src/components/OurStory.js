@@ -27,7 +27,9 @@ export default class OurStory extends Component {
               <p>
                 The TJ Luxury Group partnership began in 2000 when Tracy Welch hired
                 James Fletcher as a Sales Executive for the Rena Lange Couture
-                collection. 
+                collection. After 15 years the two formed TJ Luxury Group, quickly
+                establishing themselves as premier brand builders of emerging
+                talent.
               </p>
             </div>
                <div className='o-s-c-child-2'>
@@ -54,9 +56,7 @@ export default class OurStory extends Component {
             </div>
                       <div className='o-s-c-child-1'>
               <p>
-              After 15 years the two formed TJ Luxury Group, quickly
-                establishing themselves as premier brand builders of emerging
-                talent.
+                We work with the finest retailers in over 50 doors.  We seek tp partner with luxury brands and designers that are passionate about product placement in the North American market.
               </p>
             </div>
             </div>
