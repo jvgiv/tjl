@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-
+import imageTop from '../images/random-filler/catwalk .jpg'
 import { Parallax } from 'react-parallax';
 import Footer from './Footer';
 
 
-const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6p7y7.png';
+
 
 export default class BrandBuilders extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={image} strength={500}>
+        <Parallax bgImage={imageTop} strength={500} style={{width: '100%'}}>
           <div className='parallax-bg'>
             <h2 className='parallax-h1'>Smart. Strategic. Step Ahead.</h2>
           </div>

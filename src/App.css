@@ -292,6 +292,8 @@
 } */
 
 .story-parallax-bg {
+  opacity: 0.8;
+  color: black;
   background-position: center center;
   height: 350px;
   display: flex;
@@ -570,7 +572,8 @@
 }
 
 .image {
-  background-image: url("https://w.wallhaven.cc/full/0p/wallhaven-0p8vvj.jpg");
+  background-color: black;
+  opacity: .82;
   background-position: cover;
 }
 

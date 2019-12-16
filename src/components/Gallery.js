@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Parallax } from 'react-parallax';
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-
+import gallerypic from '../images/random-filler/runway editoral .jpg'
 import Footer from './Footer';
 
 import photos from '../images/photos';
@@ -26,9 +26,9 @@ const Gallery1 = () => {
   return (
     <>
       <div>
-        <Parallax bgImage={image} strength={500}>
+        <Parallax bgImage={gallerypic} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Smart. Strategic. Gallery Ahead.</h2>
+            <h2 className='parallax-h1'>Masters of Style.</h2>
           </div>
         </Parallax>
         <h3 className='gallery-h3'>Gallery</h3>
