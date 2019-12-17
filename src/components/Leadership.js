@@ -5,7 +5,7 @@ import jim from '../images/jim.jpg';
 import Footer from './Footer';
 
 import { Parallax } from 'react-parallax';
-import runway from '../images/random-filler/blurred runway .jpg'
+import backstage from '../images/random-filler/back stage photo shoot .jpg'
 
 
 const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6mrod.jpg';
@@ -14,9 +14,9 @@ export default class Leadership extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={runway} strength={500}>
+        <Parallax bgImage={backstage} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2>
+            {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}
           </div>
         </Parallax>
         <div className='lea-container'>

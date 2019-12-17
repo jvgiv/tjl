@@ -8,8 +8,8 @@ const image = 'https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png';
 
 const HomePage = () => {
   return (
-    <>
-    <img src={coverPic} alt='cover' style={{height: "100%", width: "100%"}}/>
+    <div style={{backgroundColor: 'black'}}>
+    <img src={coverPic} alt='cover' style={{height: "85%", width: "85%"}}/>
       {/* <Parallax
         blur={{ min: -15, max: 15 }}
         style={{ height: 1000, marginBottom: 0 }}
@@ -57,7 +57,7 @@ const HomePage = () => {
         placeat asperiores, id distinctio iure. Perspiciatis aspernatur
         asperiores tempora voluptas vero deserunt.
       </p> */}
-    </>
+    </div>
   );
 };
 

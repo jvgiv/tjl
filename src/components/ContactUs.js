@@ -29,7 +29,7 @@ export default class ContactUs extends Component {
       <>
         <Parallax bgImage={image} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Communicate with us.</h2>
+            {/* <h2 className='parallax-h1'>Communicate with us.</h2> */}
           </div>
         </Parallax>
         <h3 className='contact-h3'>Contact Us</h3>

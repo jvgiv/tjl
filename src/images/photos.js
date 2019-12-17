@@ -14,6 +14,9 @@ import photo10 from '../images/wingate/wingate_collection05_19_0886.jpg';
 import photo11 from '../images/nadina.jpg';
 import photo12 from '../images/cape.jpg';
 import photo13 from '../images/water lily.jpg';
+import photo14 from '../images/barb/_MG_0165.jpg'
+import photo15 from '../images/barb/_MG_1859.jpg'
+import photo16 from '../images/barb/_MG_3413.jpg'
 
 const photos = [
   {
@@ -91,6 +94,24 @@ const photos = [
   {
     title: 'Barbara Lohmann',
     src: photo13,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo14,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo15,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo16,
     width: 2,
     height: 3
   },

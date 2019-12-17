@@ -28,11 +28,11 @@ const Gallery1 = () => {
       <div>
         <Parallax bgImage={gallerypic} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Masters of Style.</h2>
+            {/* <h2 className='parallax-h1'>Masters of Style.</h2> */}
           </div>
         </Parallax>
         <h3 className='gallery-h3'>Gallery</h3>
-        <Gallery style={{marginTop: 10}}photos={photos} direction={'column'} onClick={openLightbox} />
+        <Gallery style={{marginTop: 10}} photos={photos} direction={'row'} onClick={openLightbox} />
         <ModalGateway>
           {modalIsOpen ? (
             <Modal onClose={closeLightbox}>

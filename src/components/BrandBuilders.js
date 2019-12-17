@@ -12,7 +12,7 @@ export default class BrandBuilders extends Component {
       <>
         <Parallax bgImage={imageTop} strength={500} style={{width: '100%'}}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Smart. Strategic. Step Ahead.</h2>
+            {/* <h2 className='parallax-h1'>Smart. Strategic. Step Ahead.</h2> */}
           </div>
         </Parallax>
         <h3 className='brand-h3'>Brand Builders</h3>
