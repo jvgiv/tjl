@@ -16,7 +16,7 @@ export default class Leadership extends Component {
       <>
         <Parallax bgImage={runway} strength={500}>
           <div className='parallax-bg'>
-            <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2>
+            {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}
           </div>
         </Parallax>
         <div className='lea-container'>
