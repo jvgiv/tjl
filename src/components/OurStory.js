@@ -2,13 +2,10 @@ import React, { Component } from 'react';
 
 import { Parallax } from 'react-parallax';
 import Footer from './Footer';
-import backstage from '../images/random-filler/back stage photo shoot .jpg'
 import rack from '../images/random-filler/rolling racks .jpg'
 import girl from '../images/random-filler/photogs and single girl in dress .jpg'
+import runway from '../images/random-filler/blurred runway .jpg'
 
-const image = 'https://w.wallhaven.cc/full/0j/wallhaven-0jgmvw.png';
-const image2 = 'https://w.wallhaven.cc/full/j5/wallhaven-j5lygp.jpg';
-const image3 = 'https://w.wallhaven.cc/full/j8/wallhaven-j8k1xw.jpg';
 
 export default class OurStory extends Component {
   render() {
@@ -33,7 +30,7 @@ export default class OurStory extends Component {
               </p>
             </div>
                <div className='o-s-c-child-2'>
-                 <Parallax style={{width: '100%'}} bgImage={backstage} strength={500}>
+                 <Parallax style={{width: '100%'}} bgImage={runway} strength={500}>
           <div className='story-parallax-bg'>
             {/* <h1>19 Years</h1> */}
             {/* <h4 >Catering To You.</h4>  */}
