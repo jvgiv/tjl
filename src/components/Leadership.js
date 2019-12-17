@@ -8,8 +8,6 @@ import { Parallax } from 'react-parallax';
 import backstage from '../images/random-filler/back stage photo shoot .jpg'
 
 
-const image = 'https://w.wallhaven.cc/full/q6/wallhaven-q6mrod.jpg';
-
 export default class Leadership extends Component {
   render() {
     return (

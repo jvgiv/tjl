@@ -1,15 +1,18 @@
-import React from 'react';
-import { Parallax } from 'react-parallax';
-import coverPic from '../images/coverPic.jpg'
-import blackLogo from '../images/black-logo.png'
+import React from "react";
+import { Parallax } from "react-parallax";
+import coverPic from "../images/coverPic.jpg";
+import blackLogo from "../images/black-logo.png";
 
-
-const image = 'https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png';
+const image = "https://w.wallhaven.cc/full/nk/wallhaven-nk7qd1.png";
 
 const HomePage = () => {
   return (
-    <div style={{backgroundColor: 'black'}}>
-    <img src={coverPic} alt='cover' style={{height: "85%", width: "85%"}}/>
+    <div className="homepage-cover">
+      <img
+        src={coverPic}
+        alt="cover"
+        style={{ height: "100%", width: "100%" }}
+      />
       {/* <Parallax
         blur={{ min: -15, max: 15 }}
         style={{ height: 1000, marginBottom: 0 }}
