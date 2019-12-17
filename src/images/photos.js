@@ -26,26 +26,8 @@ const photos = [
     height: 3
   },
   {
-    title: 'Maison Common',
-    src: photo2,
-    width: 2,
-    height: 3
-  },
-  {
-    title: 'Maison Common',
-    src: photo3,
-    width: 5,
-    height: 9
-  },
-  {
-    title: 'Maison Common',
-    src: photo4,
-    width: 3,
-    height: 2
-  },
-  {
-    title: 'Maison Common',
-    src: photo5,
+    title: 'Wingate',
+    src: photo7,
     width: 2,
     height: 3
   },
@@ -56,8 +38,44 @@ const photos = [
     height: 3
   },
   {
-    title: 'Wingate',
-    src: photo7,
+    title: 'Maison Common',
+    src: photo2,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo13,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Maison Common',
+    src: photo2,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo16,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Maison Common',
+    src: photo4,
+    width: 3,
+    height: 2
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo12,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Maison Common',
+    src: photo5,
     width: 2,
     height: 3
   },
@@ -68,8 +86,26 @@ const photos = [
     height: 3
   },
   {
+    title: 'Maison Common',
+    src: photo3,
+    width: 5,
+    height: 9
+  },
+  {
     title: 'Wingate',
     src: photo9,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo11,
+    width: 2,
+    height: 3
+  },
+  {
+    title: 'Barbara Lohmann',
+    src: photo14,
     width: 2,
     height: 3
   },
@@ -81,40 +117,11 @@ const photos = [
   },
   {
     title: 'Barbara Lohmann',
-    src: photo11,
-    width: 2,
-    height: 3
-  },
-  {
-    title: 'Barbara Lohmann',
-    src: photo12,
-    width: 2,
-    height: 3
-  },
-  {
-    title: 'Barbara Lohmann',
-    src: photo13,
-    width: 2,
-    height: 3
-  },
-  {
-    title: 'Barbara Lohmann',
-    src: photo14,
-    width: 2,
-    height: 3
-  },
-  {
-    title: 'Barbara Lohmann',
     src: photo15,
     width: 2,
     height: 3
   },
-  {
-    title: 'Barbara Lohmann',
-    src: photo16,
-    width: 2,
-    height: 3
-  },
+  
 ];
 
 export default photos;
