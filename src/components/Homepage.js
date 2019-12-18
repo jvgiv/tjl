@@ -23,6 +23,7 @@ const HomePage = () => {
       animationSpeed={1800}
       autoPlay={6900}
       infinite
+      clickToChange
     />
   );
 };
