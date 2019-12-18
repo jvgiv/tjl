@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import Footer from './Footer';
+import runwaybacks from '../images/cover pics/runway backs.jpg'
 
 const image = 'https://w.wallhaven.cc/full/mp/wallhaven-mp685m.jpg';
 
@@ -27,7 +28,7 @@ export default class ContactUs extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={image} strength={500}>
+        <Parallax bgImage={runwaybacks} strength={500}>
           <div className='parallax-bg'>
             {/* <h2 className='parallax-h1'>Communicate with us.</h2> */}
           </div>

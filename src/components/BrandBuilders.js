@@ -18,10 +18,10 @@ export default class BrandBuilders extends Component {
         <h3 className='brand-h3'>Brand Builders</h3>
         <div className='bb-container'>
           <p className='bb-container-children image'>
-            Strategic Aspirational Product Development
+            Aspirational Product Development
           </p>
           <p className='bb-container-children image'>
-            US Delivery Chain Importation Knowledge
+            U.S. Import and Supply Chain Expertise
           </p>
           <p className='bb-container-children image'>Product, People, Promotion</p>
           <p className='bb-container-children image'>Product Seminars</p>
@@ -30,7 +30,7 @@ export default class BrandBuilders extends Component {
           </p>
           <p className='bb-container-children image'>Brand Ambassador Programs</p>
           <p className='bb-container-children image'>Seasonal Reward Programs</p>
-          <p className='bb-container-children image'>Curating for US Markets</p>
+          <p className='bb-container-children image'>Curating for U.S. Markets</p>
           <p className='bb-container-children image'>Trunk Show Expertise</p>
           <p className='bb-container-children disappearing'></p>
           <p className='bb-container-children image'>Seasonal Forecast</p>
