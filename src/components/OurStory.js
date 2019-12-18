@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
 import { Parallax } from 'react-parallax';
 import Footer from './Footer';
 import rack from '../images/random-filler/rolling racks .jpg'
 import girl from '../images/random-filler/photogs and single girl in dress .jpg'
 import runway from '../images/random-filler/blurred runway .jpg'
-
+import onemodel from '../images/cover pics/one model .jpg'
 
 export default class OurStory extends Component {
   render() {
@@ -44,7 +43,7 @@ export default class OurStory extends Component {
                
              <div className='story-child-2'>
                <div className='o-s-c-child-2'>
-                 <Parallax style={{width: '100%'}} bgImage={rack} strength={500}>
+                 <Parallax style={{width: '100%'}} bgImage={onemodel} strength={500}>
           <div className='story-parallax-bg'>
             {/* <h1>19 Years</h1>
             <h4 >Catering To You.</h4>  */}
