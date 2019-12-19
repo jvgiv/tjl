@@ -82,7 +82,7 @@
 @media (max-width: 800px) {
   .navbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
@@ -97,6 +97,7 @@
     font-weight: 700;
     color: #000000;
     text-align: left;
+    margin: 5.9px;
   }
 }
 
@@ -167,7 +168,6 @@
     content: ">>";
   }
 }
-
 .link:hover {
   color: #a1a1a1;
   -webkit-transition: all 0.5s ease;
@@ -865,7 +865,7 @@ footer {
   display: flex;
   flex-direction: row;
   color: #ffffff;
-  background: #222222;
+  background: #0a0a0c;
   justify-content: center;
 }
 @media (max-width: 800px) {
@@ -873,7 +873,6 @@ footer {
     display: flex;
     flex-direction: row;
     color: #ffffff;
-    background: #222222;
     justify-content: center;
     align-items: baseline;
   }
@@ -990,6 +989,12 @@ footer {
   letter-spacing: 0.17px;
   font-size: 13px;
 }
+.footer-link:hover {
+  color: #a1a1a1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
 
 .logo-container {
   display: flex;
@@ -1000,8 +1005,15 @@ footer {
 @media (max-width: 500px) {
   .logo-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    margin: 10% 11px 0px 0px;
+  }
+
+  .footer-logos {
+    padding-right: 5%;
     margin: 0 auto;
+    width: 27px !important;
   }
 }
 
@@ -1088,7 +1100,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  background: #222222;
+  background: #0a0a0c;
 }
 
 .footer-copyright p {
