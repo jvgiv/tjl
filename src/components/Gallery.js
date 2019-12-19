@@ -44,6 +44,7 @@ const Gallery1 = () => {
             <Modal onClose={closeLightbox}>
               <Carousel
                 currentIndex={currentImage}
+                lazyLoad={true}
                 views={photos.map(x => ({
                   ...x,
                   srcset: x.srcSet,
