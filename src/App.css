@@ -925,7 +925,7 @@ footer {
     font-weight: 900;
     margin-bottom: 15px;
     text-align: center;
-    /* font-size: 29px; */
+    font-size: 18px;
   }
 }
 
@@ -951,7 +951,7 @@ footer {
   font-size: 17px;
   font-weight: 900;
   letter-spacing: 1.2px;
-  width: 75%;
+
   margin: 0 auto;
 }
 
