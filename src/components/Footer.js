@@ -2,12 +2,46 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { ReactComponent as Instagram } from "../images/ig.svg";
 import { ReactComponent as Facebook } from "../images/fb.svg";
+import tjLogoWhite from "../images/black-white.png";
 
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="footer-inner">
+          <img src={tjLogoWhite} alt="TJ Luxury Group Logo" width={220} />
+          <div style={{ fontSize: 13, lineHeight: 2 }}>
+            <div className="footer-location">
+              <h4>Location:</h4>
+              Based in New York, New York.
+            </div>
+            <div className="footer-social">
+              <h4>Follow us:</h4>
+              <a
+                href="https://www.instagram.com/tjluxurygroup/"
+                target="blank"
+                alt="TJ Luxury Group Instagram"
+              >
+                <Instagram />
+              </a>
+              <a
+                href="https://www.facebook.com/tjluxurygroup/"
+                target="blank"
+                alt="TJ Luxury Group Facebook"
+              >
+                <Facebook />
+              </a>
+            </div>
+            <div className="footer-contact">
+              <h4>Contact:</h4>
+              <a href="mailto:tracy@tjluxurygroup.com">
+                tracy@tjluxurygroup.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="footer-inner">
+          <h4 className="quick-links">Quick Links</h4>
           <NavLink className="footer-link" activeClassName="" to="/gallery">
             Gallery
           </NavLink>
@@ -17,7 +51,11 @@ const Footer = () => {
           <NavLink className="footer-link" activeClassName="" to="/ourstory">
             Our Story
           </NavLink>
-          <NavLink className="footer-link" activeClassName="" to="/leadership">
+          <NavLink
+            className="footer-link"
+            activeClassName=""
+            to="/leadership"
+          >
             Leadership
           </NavLink>
           <NavLink className="footer-link" activeClassName="" to="/contact">
@@ -31,12 +69,12 @@ const Footer = () => {
           </div>
         </div>*/}
 
-        <div className="footer-inner">
+        {/* <div className="footer-inner">
           <h2>Work with us.</h2>
           <Link to="/contact" className="contact-link">
-            Contact
+            Contact Us
           </Link>
-          <div className="logo-container">
+           <div className="logo-container">
             <a
               className="footer-logos"
               href="https://www.instagram.com/tjluxurygroup/"
@@ -60,7 +98,8 @@ const Footer = () => {
               />
             </a>
           </div>
-        </div>
+          
+        </div>*/}
       </footer>
       <div className="footer-copyright">
         <p>&copy; {new Date().getFullYear()} TJ Luxury Group.</p>
