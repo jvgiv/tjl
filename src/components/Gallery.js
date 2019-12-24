@@ -3,11 +3,8 @@ import { Parallax } from "react-parallax";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import gallerypic from "../images/random-filler/runway editoral .jpg";
-import Footer from "./Footer";
 
 import photos from "../images/photos";
-
-const image = "https://w.wallhaven.cc/full/dg/wallhaven-dgomzg.png";
 
 const Gallery1 = () => {
   const [currentImage, setCurrentImage] = useState(0);

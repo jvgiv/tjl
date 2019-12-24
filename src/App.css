@@ -541,6 +541,7 @@
   }
 
   .react-parallax-bgimage {
+    top: 40%;
     left: 80% !important;
   }
 }

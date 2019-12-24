@@ -29,7 +29,7 @@ export default class OurStory extends Component {
               </p>
             </div>
                <div className='o-s-c-child-2'>
-                 <Parallax style={{width: '100%'}} bgImage={runway} strength={500}>
+                 <Parallax style={{width: '100%'}} bgImage={onemodel} strength={500}>
           <div className='story-parallax-bg'>
             {/* <h1>19 Years</h1> */}
             {/* <h4 >Catering To You.</h4>  */}
@@ -43,7 +43,7 @@ export default class OurStory extends Component {
                
              <div className='story-child-2'>
                <div className='o-s-c-child-2'>
-                 <Parallax style={{width: '100%'}} bgImage={onemodel} strength={500}>
+                 <Parallax style={{width: '100%'}} bgImage={rack} strength={500}>
           <div className='story-parallax-bg'>
             {/* <h1>19 Years</h1>
             <h4 >Catering To You.</h4>  */}
