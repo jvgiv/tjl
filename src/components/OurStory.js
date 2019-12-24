@@ -52,7 +52,7 @@ export default class OurStory extends Component {
             </div>
                       <div className='o-s-c-child-1'>
               <p>
-                We work with the finest retailers in over 50 doors.  We seek tp partner with luxury brands and designers that are passionate about product placement in the North American market.
+                We work with the finest retailers in over 50 doors. We seek to partner with luxury brands and designers that are passionate about product placement in the North American market.
               </p>
             </div>
             </div>
