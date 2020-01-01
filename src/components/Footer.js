@@ -37,26 +37,25 @@ const Footer = () => {
               <a href="mailto:tracy@tjluxurygroup.com">
                 tracy@tjluxurygroup.com
               </a>
+              <a href="mailto:james@tjluxurygroup.com">
+                james@tjluxurygroup.com
+              </a>
             </div>
           </div>
         </div>
         <div className="footer-inner">
           <h4 className="quick-links">Quick Links</h4>
-          <NavLink className="footer-link" activeClassName="" to="/gallery">
-            Gallery
-          </NavLink>
           <NavLink className="footer-link" activeClassName="" to="/brand">
-            Brand Builders
+            Our Strategy
           </NavLink>
           <NavLink className="footer-link" activeClassName="" to="/ourstory">
             Our Story
           </NavLink>
-          <NavLink
-            className="footer-link"
-            activeClassName=""
-            to="/leadership"
-          >
+          <NavLink className="footer-link" activeClassName="" to="/leadership">
             Leadership
+          </NavLink>
+          <NavLink className="footer-link" activeClassName="" to="/gallery">
+            Gallery
           </NavLink>
           <NavLink className="footer-link" activeClassName="" to="/contact">
             Contact Us

@@ -1147,6 +1147,10 @@ footer {
   cursor: pointer;
 }
 
+.footer-contact a:last-child {
+  width: 80px;
+}
+
 .footer-copyright {
   display: flex;
   flex-direction: row;

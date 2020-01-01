@@ -56,7 +56,7 @@ const photos = [
     height: 3
   },
   {
-    title: "Patti-Garnet",
+    title: "Ella McHugh",
     src: photo17,
     width: 2,
     height: 3
@@ -74,7 +74,7 @@ const photos = [
     height: 2
   },
   {
-    title: "Sidney-Velvet",
+    title: "Ella McHugh",
     src: photo19,
     width: 2,
     height: 3
@@ -98,7 +98,7 @@ const photos = [
     height: 3
   },
   {
-    title: "Vera Gold",
+    title: "Ella McHugh",
     src: photo20,
     width: 2,
     height: 3
@@ -116,7 +116,7 @@ const photos = [
     height: 3
   },
   {
-    title: "Paula II Raven",
+    title: "Ella McHugh",
     src: photo18,
     width: 2,
     height: 3
@@ -148,3 +148,5 @@ const photos = [
 ];
 
 export default photos;
+
+

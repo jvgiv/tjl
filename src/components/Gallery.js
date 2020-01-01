@@ -3,7 +3,6 @@ import { Parallax } from "react-parallax";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import gallerypic from "../images/random-filler/runway editoral .jpg";
-
 import photos from "../images/photos";
 
 const Gallery1 = () => {
@@ -34,8 +33,8 @@ const Gallery1 = () => {
           photos={photos}
           direction={"row"}
           onClick={openLightbox}
-          lazyLoad={true}
         />
+
         <ModalGateway>
           {modalIsOpen ? (
             <Modal onClose={closeLightbox}>
