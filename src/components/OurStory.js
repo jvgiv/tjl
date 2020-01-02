@@ -10,7 +10,7 @@ export default class OurStory extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={girl} strength={500}>
+        <Parallax bgImage={girl} strength={300} style={{ width: '1904px'}}>
           <div className="parallax-bg">
             {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}
           </div>
