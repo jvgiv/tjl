@@ -7,10 +7,13 @@ import runway from '../images/random-filler/blurred runway .jpg'
 import onemodel from '../images/cover pics/one model .jpg'
 
 export default class OurStory extends Component {
+
+
+
   render() {
     return (
       <>
-        <Parallax bgImage={girl} strength={500}>
+        <Parallax bgImage={girl} strength={500} className="os-para">
           <div className='parallax-bg'>
             {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}
           </div>

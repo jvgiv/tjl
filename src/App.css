@@ -475,6 +475,14 @@
   width: 100%;
 } */
 
+@media ( max-width: 500px ) {
+  .os-para {
+    padding-left: 100px;
+    width: "100%";
+    height: "50%";
+  }
+}
+
 .story-parallax-bg {
   opacity: 0.8;
   color: black;
