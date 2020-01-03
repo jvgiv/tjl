@@ -1,17 +1,15 @@
 import React from "react";
-import { Parallax } from "react-parallax";
-import coverPic from "../images/coverPic_4_35.jpg";
-import blackLogo from "../images/black-logo.png";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-import emptystage from "../images/cover pics/empty stage .jpg";
-import homepic from "../images/cover pics/home page .jpg";
+import homePageOne from "../images/cover pics/home-page-1.jpg";
+import homePageTwo from "../images/cover pics/home-page-2.jpg";
+import homePageThree from "../images/cover pics/home-page-3.jpg";
 
 const HomePage = () => {
   let slides = [
-    <img key={1} src={coverPic} style={{ width: "100%" }} />,
-    <img key={2} src={emptystage} style={{ width: "100%" }} />,
-    <img key={3} src={homepic} style={{ width: "100%" }} />
+    <img key={1} src={homePageOne} style={{ width: "100%" }} />,
+    <img key={2} src={homePageTwo} style={{ width: "100%" }} />,
+    <img key={3} src={homePageThree} style={{ width: "100%" }} />
   ];
   return (
     <Carousel

@@ -1,24 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { Parallax } from 'react-parallax';
-import backstage from '../images/random-filler/back stage photo shoot .jpg'
-
+import { Parallax } from "react-parallax";
+import backstage from "../images/random-filler/back stage photo shoot .jpg";
 
 export default class Leadership extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={backstage} strength={500}>
-          <div className='parallax-bg'>
+        <Parallax
+          style={{ width: "100%" }}
+          bgImage={backstage}
+          strength={500}
+          bgImageStyle={{ top: "-60%" }}
+        >
+          <div className="parallax-bg">
             {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}
           </div>
         </Parallax>
-        <div className='lea-container'>
-          <div className='tracy-container'>
+        <div className="lea-container">
+          <div className="tracy-container">
             <div>
               {/* <img className='img-squared shadow' src={tracy} alt='tracy' /> */}
             </div>
-            <div className='tracy-info'>
+            <div className="tracy-info">
               <h2>Tracy Welch</h2>
               {/* <p>917-913-5073</p> */}
               {/* <p>tracy@tjluxurygroup.com</p> */}
@@ -34,8 +38,8 @@ export default class Leadership extends Component {
               </p>
             </div>
           </div>
-          <div className='james-container'>
-            <div className='james-info'>
+          <div className="james-container">
+            <div className="james-info">
               <h2>James Fletcher</h2>
               {/* <p>917-596-0701</p>
               <p>james@tjluxurygroup.com</p> */}
@@ -50,7 +54,6 @@ export default class Leadership extends Component {
               </p>
             </div>
             <div>
-              
               {/* <img className='img-squared shadow' src={jim} alt='jim' /> */}
             </div>
           </div>

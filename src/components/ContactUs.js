@@ -28,7 +28,12 @@ export default class ContactUs extends Component {
   render() {
     return (
       <>
-        <Parallax bgImage={runwaybacks} strength={500}>
+        <Parallax
+          style={{ width: "100%" }}
+          bgImageStyle={{ top: "46%" }}
+          bgImage={runwaybacks}
+          strength={500}
+        >
           <div className="parallax-bg">
             {/* <h2 className='parallax-h1'>Communicate with us.</h2> */}
           </div>

@@ -22,7 +22,12 @@ const Gallery1 = () => {
   return (
     <>
       <div>
-        <Parallax bgImage={gallerypic} strength={500}>
+        <Parallax
+          style={{ width: "100%" }}
+          bgImage={gallerypic}
+          bgImageStyle={{}}
+          strength={500}
+        >
           <div className="parallax-bg">
             {/* <h2 className='parallax-h1'>Masters of Style.</h2> */}
           </div>
