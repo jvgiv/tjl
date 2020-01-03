@@ -81,7 +81,7 @@ export default class ContactUs extends Component {
           <form 
             className="form"
             onSubmit={this.submitForm}
-            action="https://formspree.io/mlegvnrg"
+            action="https://formspree.io/xdoajdey"
             method="POST"  
           >
             <p>
