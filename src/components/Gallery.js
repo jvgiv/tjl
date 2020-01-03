@@ -23,7 +23,7 @@ const Gallery1 = () => {
     <>
       <div>
         <Parallax
-          style={{ width: "1904px" }}
+          style={{ width: "100%" }}
           bgImage={gallerypic}
           bgImageStyle={{}}
           strength={500}

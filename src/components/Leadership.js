@@ -8,7 +8,7 @@ export default class Leadership extends Component {
     return (
       <>
         <Parallax
-          style={{ width: "1904px" }}
+          style={{ width: "100%" }}
           bgImage={backstage}
           strength={500}
           bgImageStyle={{ top: "-60%" }}

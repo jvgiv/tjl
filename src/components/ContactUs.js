@@ -29,7 +29,7 @@ export default class ContactUs extends Component {
     return (
       <>
         <Parallax
-          style={{ width: "1904px" }}
+          style={{ width: "100%" }}
           bgImageStyle={{ top: "46%" }}
           bgImage={runwaybacks}
           strength={500}
