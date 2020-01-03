@@ -102,6 +102,7 @@ const Footer = () => {
       </footer>
       <div className="footer-copyright">
         <p>&copy; {new Date().getFullYear()} TJ Luxury Group.</p>
+        <p>Website by <a href="http://www.johngibbonsiv.me" target='_blank'>John Gibbons</a> and <a href="https://www.taslim.me" target="_blank">Taslim Yakub</a></p>
       </div>
     </>
   );

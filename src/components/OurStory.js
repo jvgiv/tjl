@@ -7,6 +7,9 @@ import runway from "../images/random-filler/blurred runway .jpg";
 import onemodel from "../images/cover pics/one model .jpg";
 
 export default class OurStory extends Component {
+
+
+
   render() {
     return (
       <>
