@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import Footer from "./Footer";
 import runwaybacks from "../images/cover pics/runway backs.jpg";
 
-const image = "https://w.wallhaven.cc/full/mp/wallhaven-mp685m.jpg";
+
 
 export default class ContactUs extends Component {
   constructor(props) {
@@ -13,7 +13,8 @@ export default class ContactUs extends Component {
       name: "",
       email: "",
       subject: "",
-      message: ""
+      message: "",
+      status: ""
     };
   }
 
@@ -24,6 +25,31 @@ export default class ContactUs extends Component {
       [e.target.name]: e.target.value
     });
   };
+
+
+  submitForm = (ev) => {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ 
+          status: "SUCCESS",
+          name: "",
+          email: "",
+          subject: "", 
+          message: "" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  }
 
   render() {
     return (
@@ -52,7 +78,12 @@ export default class ContactUs extends Component {
               <p href="tel:1-562-867-5309">917-596-0701</p>
             </div>
           </div>
-          <form className="form">
+          <form 
+            className="form"
+            onSubmit={this.submitForm}
+            action="https://formspree.io/mlegvnrg"
+            method="POST"  
+          >
             <p>
               Email to <strong>tracy@tjluxurygroup.com</strong>, or fill out the
               form below.
@@ -91,7 +122,9 @@ export default class ContactUs extends Component {
               value={this.state.message}
               onChange={this.handleChange}
             />
-            <button>Send</button>
+            {/* <button>Send</button> */}
+            {this.state.status === "SUCCESS" ? <p style={{marginTop: "2%"}}>Successful Submission!</p> : <button>Submit</button>}
+            {this.state.status === "ERROR" && <p>Error.  Make sure to fill out all fields.</p>}
           </form>
         </div>
 

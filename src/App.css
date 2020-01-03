@@ -1159,7 +1159,7 @@ footer {
 
 .footer-copyright {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding: 20px;
   background: #0a0a0c;
