@@ -17,6 +17,8 @@ import photo13 from "../images/water lily.jpg";
 import photo14 from "../images/barb/_MG_0165.jpg";
 import photo15 from "../images/barb/_MG_1859.jpg";
 import photo16 from "../images/barb/_MG_3413.jpg";
+import photo21 from "../images/wingate/back shot of printed tunic.jpg";
+import photo22 from "../images/wingate/wingate_collection05_26_1140.jpg";
 
 // handbags
 import photo17 from "../images/handbags/Patti-Garnet--ED.jpg";
@@ -32,7 +34,7 @@ const photos = [
     height: 3
   },
   {
-    title: "Wingate",
+    title: "WINGATE",
     src: photo7,
     width: 2,
     height: 3
@@ -48,6 +50,12 @@ const photos = [
     src: photo13,
     width: 2,
     height: 3
+  },
+  {
+    title: "WINGATE",
+    src: photo21,
+    width: 3,
+    height: 2
   },
   {
     title: "Maison Common",
@@ -86,13 +94,19 @@ const photos = [
     height: 3
   },
   {
+    title: "WINGATE",
+    src: photo22,
+    width: 2,
+    height: 3
+  },
+  {
     title: "Maison Common",
     src: photo5,
     width: 2,
     height: 3
   },
   {
-    title: "Wingate",
+    title: "WINGATE",
     src: photo8,
     width: 2,
     height: 3
@@ -110,7 +124,7 @@ const photos = [
     height: 9
   },
   {
-    title: "Wingate",
+    title: "WINGATE",
     src: photo9,
     width: 2,
     height: 3
@@ -134,7 +148,7 @@ const photos = [
     height: 3
   },
   {
-    title: "Wingate",
+    title: "WINGATE",
     src: photo10,
     width: 3,
     height: 4
@@ -148,5 +162,3 @@ const photos = [
 ];
 
 export default photos;
-
-
