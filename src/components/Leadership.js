@@ -11,7 +11,7 @@ export default class Leadership extends Component {
           style={{ width: "100%" }}
           bgImage={backstage}
           strength={500}
-          bgImageStyle={{ top: "-60%" }}
+          bgImageStyle={{ top: '-35%' }}
         >
           <div className="parallax-bg">
             {/* <h2 className='parallax-h1'>Bold. Authentic. Effective.</h2> */}

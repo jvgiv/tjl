@@ -7,9 +7,9 @@ import homePageThree from "../images/cover pics/home-page-3.jpg";
 
 const HomePage = () => {
   let slides = [
-    <img key={1} src={homePageOne} style={{ width: "100%" }} />,
-    <img key={2} src={homePageTwo} style={{ width: "100%" }} />,
-    <img key={3} src={homePageThree} style={{ width: "100%" }} />
+    <img key={1} src={homePageOne} alt="cover Picture 1 - Model" style={{ width: "100%" }} />,
+    <img key={2} src={homePageTwo} alt="cover Picture 2 - Empty Runway" style={{ width: "100%" }} />,
+    <img key={3} src={homePageThree} alt="cover picture 3 - Model Runway" style={{ width: "100%" }} />
   ];
   return (
     <Carousel

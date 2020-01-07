@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ReactComponent as Instagram } from "../images/ig.svg";
 import { ReactComponent as Facebook } from "../images/fb.svg";
 import tjLogoWhite from "../images/black-white.png";
@@ -19,14 +19,16 @@ const Footer = () => {
               <h4>Follow us:</h4>
               <a
                 href="https://www.instagram.com/tjluxurygroup/"
-                target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="TJ Luxury Group Instagram"
               >
                 <Instagram />
               </a>
               <a
                 href="https://www.facebook.com/tjluxurygroup/"
-                target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="TJ Luxury Group Facebook"
               >
                 <Facebook />
@@ -102,7 +104,24 @@ const Footer = () => {
       </footer>
       <div className="footer-copyright">
         <p>&copy; {new Date().getFullYear()} TJ Luxury Group.</p>
-        <p>Website by <a href="http://www.johngibbonsiv.me" target='_blank'>John Gibbons</a> and <a href="https://www.taslim.me" target="_blank">Taslim Yakub</a></p>
+        <p>
+          Website by{" "}
+          <a
+            href="http://www.johngibbonsiv.me"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            John Gibbons
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.taslim.me"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Taslim Yakub
+          </a>
+        </p>
       </div>
     </>
   );

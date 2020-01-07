@@ -25,7 +25,7 @@ const Gallery1 = () => {
         <Parallax
           style={{ width: "100%" }}
           bgImage={gallerypic}
-          bgImageStyle={{}}
+          bgImageStyle={{ top: "20%" }}
           strength={500}
         >
           <div className="parallax-bg">
